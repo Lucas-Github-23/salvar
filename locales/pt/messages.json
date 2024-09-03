@@ -1,0 +1,15 @@
+{
+    "extensionName": {
+      "message": "Extensão Poggers (AutoTyper)"
+    },
+    "startButton": {
+      "message": "Começar a digitar"
+    },
+    "enterText": {
+      "message": "Digite o texto aqui..."
+    },
+    "timerText": {
+      "message": "Começando em {seconds} segundos"
+    }
+  }
+  

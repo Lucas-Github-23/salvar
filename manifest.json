@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Extensão Poggers (AutoTyper)",
+  "description": "Transforma texto em digitação humanizada. Esta extensão emula digitação em caixas de texto.",
+  "version": "1.0",
+  "permissions": ["contextMenus", "activeTab", "clipboardRead"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "extensionName": {
+      "message": "AutoTyper Extension"
+    },
+    "startButton": {
+      "message": "Start Typing"
+    },
+    "enterText": {
+      "message": "Enter the text here..."
+    },
+    "timerText": {
+      "message": "Starting in {seconds} seconds"
+    }
+  }
+  
